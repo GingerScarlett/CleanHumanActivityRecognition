@@ -10,6 +10,9 @@ The data sets were created from processing the set located at https://d396qusza4
 with a full description located a the original site,
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
+Important:
+The main program file is run_analysis.R and it assumes that the original Samsung data sets are located in folder of the current working directory called .\rawdata
+
 Summary of operations
 1. Column Headings were used and saved in the same file as the data set
 2. Activity Names were also incorporated into the actual data sets, instead of just having the activity ids
@@ -33,7 +36,9 @@ Note: all the files are in .csv format for ease of loading/parsing
 4. byactivitysummary.csv - this contains a summary of all fields, grouped by activity
 
 
-5.bysubjectsummary.csv - this contains a summary of all fields, grouped by subject
+5.bysubjectsummary.csv - this contains a summary (mean) of all fields, grouped by subject
+
+6. byactivitysubjectsummary.txt - this contains the summary file (mean) of all fields by both activity and subject, formatted according to the course instructions
 
 
 

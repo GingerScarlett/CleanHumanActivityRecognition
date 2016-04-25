@@ -47,10 +47,13 @@ the mean and standard deviation for each measurement
 3. combinedactivitynames.csv - this is a further enhancement on the combinedhar.csv, with an additional column 
 containing descriptive activity names
 
-4. byactivitysummary.csv - this contains a summary of all fields, grouped by activity
+4. byactivitysummary.csv - this contains a summary (mean) of all fields, grouped by activity
 
 
-5. bysubjectsummary.csv - this contains a summary of all fields, grouped by subject
+5. bysubjectsummary.csv - this contains a summary (mean) of all fields, grouped by subject
+
+
+6. byactivitysubjectsummary.txt - this contains the summary file (mean) of all fields by both activity and subject, formatted according to the course instructions
 
 
 
