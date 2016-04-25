@@ -6,9 +6,18 @@ Data Science specialization on Coursera, on April 24, 2016.
 
 The original ReadMe is appended below and it begins after the a series of ######### signs
 
-For this dataset, the following modifications were done to the original set located at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+The data sets were created from processing the set located at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 with a full description located a the original site,
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+Summary of operations
+1. Column Headings were used and saved in the same file as the data set
+2. Activity Names were also incorporated into the actual data sets, instead of just having the activity ids
+3. The file of feature vectors was read and converted to numeric
+4. The vector data was combined with the activity and subject data to allow the resulting data set to be viewed, sliced and summaried by these dimensions
+5. The training and test data were merged
+6. Summaries were created as requested, either over the entire dataset or groups by activities and/or subjects
+7. Other than the class  project upload file, all data sets were saved as csv
 
 
 

@@ -103,3 +103,8 @@ bysubjectsum <- summarize_each(bysubject, funs(mean))
 bysubjectsumfile <- "./bysubjectsummary.csv"
 write.csv (bysubjectsum, file=bysubjectsumfile)
 
+byactivitysubject <- group_by (combinedhar, activityid, subjectid)
+byactivitysubjectsum <- summarize_each(byactivitysubject, funs(mean))
+byactivitysubjectsumfile <- "./byactivitysubjectsummary.txt"
+write.table(byactivitysubjectsum, file=byactivitysubjectsumfile, row.names = FALSE)
+
